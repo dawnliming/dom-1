@@ -1,0 +1,9 @@
+const div= dom.create("<div>newDiv</div>");
+console.log(div);
+
+dom.after(test, div);
+const div2= dom.create("<div>123</div>");
+dom.before(test, div2);
+
+const nodes = dom.empty(window.empty);
+console.log(nodes)

@@ -1,0 +1,5 @@
+const div= dom.create("<div>newDiv</div>");
+console.log(div);
+
+dom.after(test, div);
+dom.before(test, div);
